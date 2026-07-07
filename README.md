@@ -180,12 +180,6 @@ El proyecto está diseñado para ser escalable, con las siguientes metas a corto
 
 ---
 
-## Documentación Metodológica
-Para una comprensión profunda de los criterios de evaluación, se ha adjuntado un documento detallado que incluye la justificación técnica de cada candidato y las fuentes de validación.
-
-**[Descargar Metodología Detallada (PDF)](./documentacion/Metodologia_Clasificacion_Riesgo_2026.pdf)**
-
----
 ## Perfil del Desarrollador
 Desarrollado por estudiante de Estadistica de 7mo ciclo, ubicado en el **Cuadro de Mérito (Top 2)** de la facultad. Especialista en la creación de soluciones basadas en datos para contextos de alta complejidad.
 
