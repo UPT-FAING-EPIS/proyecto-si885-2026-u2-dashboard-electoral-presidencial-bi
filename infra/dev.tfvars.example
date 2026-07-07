@@ -1,0 +1,6 @@
+project_name       = "candidatos2026"
+environment        = "dev"
+location           = "eastus"
+sql_admin_login    = "sqladminuser"
+sql_admin_password = "Cambiar_Este_Password_12345!"
+allowed_ip_address = "TU_IP_PUBLICA"

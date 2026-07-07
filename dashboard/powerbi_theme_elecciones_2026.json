@@ -1,0 +1,100 @@
+{
+  "name": "Elecciones 2026 - Analitico",
+  "dataColors": [
+    "#233A8B",
+    "#6E7FD1",
+    "#C43D4B",
+    "#E0A82E",
+    "#2D8C72",
+    "#6F6F78",
+    "#9B59B6",
+    "#38A3A5"
+  ],
+  "background": "#F5F6FA",
+  "foreground": "#1E2432",
+  "tableAccent": "#233A8B",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#233A8B"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#D8DCE8"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1E2432"
+              }
+            },
+            "fontSize": 24,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#5B6270"
+              }
+            },
+            "fontSize": 10
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#233A8B"
+              }
+            },
+            "textSize": 10
+          }
+        ]
+      }
+    }
+  }
+}

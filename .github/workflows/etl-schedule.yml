@@ -1,0 +1,62 @@
+name: ETL Schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *"
+
+env:
+  RESOURCE_GROUP_NAME: rg-candidatos2026-dev
+  STORAGE_ACCOUNT_NAME: candidatos2026devz0lh9d
+  RAW_CONTAINER_NAME: raw-csv
+  AZURE_SQL_SERVER: sql-candidatos2026-dev-w3-z0lh9d.database.windows.net
+  AZURE_SQL_DATABASE: Elecciones2026DW
+  AZURE_SQL_SERVER_NAME: sql-candidatos2026-dev-w3-z0lh9d
+
+jobs:
+  load-csv:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r etl/requirements.txt
+
+      - name: Allow runner IP in Azure SQL
+        shell: pwsh
+        run: |
+          $runnerIp = Invoke-RestMethod -Uri "https://api.ipify.org?format=text"
+          az sql server firewall-rule create `
+            --resource-group $env:RESOURCE_GROUP_NAME `
+            --server $env:AZURE_SQL_SERVER_NAME `
+            --name github-actions-runner `
+            --start-ip-address $runnerIp `
+            --end-ip-address $runnerIp
+
+      - name: Upload CSV to Blob Storage
+        run: |
+          az storage blob upload-batch ^
+            --account-name %STORAGE_ACCOUNT_NAME% ^
+            --destination %RAW_CONTAINER_NAME% ^
+            --destination-path data ^
+            --source data ^
+            --pattern *.csv ^
+            --auth-mode key ^
+            --overwrite true
+        shell: cmd
+
+      - name: Load CSV to Azure SQL
+        run: python etl/load_csv_to_azure_sql.py
+        env:
+          AZURE_SQL_USER: ${{ secrets.SQL_ADMIN_LOGIN }}
+          AZURE_SQL_PASSWORD: ${{ secrets.SQL_ADMIN_PASSWORD }}
+          ODBC_DRIVER: ODBC Driver 17 for SQL Server

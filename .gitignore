@@ -1,0 +1,12 @@
+.env
+.azure-github-credentials.json
+.venv/
+__pycache__/
+*.pyc
+
+# Terraform local state and secrets
+infra/.terraform/
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/*.tfvars
+!infra/*.tfvars.example

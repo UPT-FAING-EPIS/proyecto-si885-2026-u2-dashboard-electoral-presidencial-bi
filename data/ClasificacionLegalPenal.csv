@@ -1,0 +1,37 @@
+﻿IdClasificacion,IdCandidato,NivelPrincipal,SubNivel,SubSubNivel,CodigoCompleto,Justificacion,FechaRegistro
+1,1,4,A,COR,N4-A (COR),Acusación fiscal por colusión y negociación incompatible (Caso UNI). Pedido de 5 años de prisión. Registra omisión de detención por amnistía de 1970.,2026-03-11 02:00:43.840
+2,2,1,A,2,N1-A,Cuestionamiento mediático por presunta venta ilegal de tesis mediante Centro Jurídico Athena. Empleadas confirman actividad ilegal durante su gestión como gerente.,2026-03-11 02:00:43.893
+3,3,3,COR,,N3-COR,"Investigación fiscal por presunta colusión, negociación incompatible y enriquecimiento ilícito (Caso Rolex y Joyas). Múltiples investigaciones en gestión de La Libertad.",2026-03-11 02:00:43.960
+4,4,0,B,,N0-B,JEE archivó pedido de exclusión. Se confirmó que no registra sentencias condenatorias; el reporte inicial de homicidio calificado fue un error administrativo de registro.,2026-03-11 02:00:44.003
+5,5,0,B,,N0-B,Sin información penal o administrativa relevante. Perfil enfocado en gestión municipal y litigio constitucional estratégico.,2026-03-11 02:00:44.050
+6,6,3,COR,,N3-COR,Investigación fiscal por presunta recaudación ilícita y financiamiento de campaña 2021. Múltiples investigaciones fiscales abiertas por delitos de corrupción.,2026-03-11 02:00:44.090
+7,7,3,COR,,N3-COR,Investigación fiscal abierta por presunta organización criminal y colusión agravada en contrataciones de EsSalud durante emergencia COVID-19 (Caso Club de las Farmacéuticas).,2026-03-11 02:00:44.133
+8,8,3,ADM,,N3-ADM,Investigación fiscal por presuntos delitos contra la administración pública (negociación incompatible y tráfico de influencias). Acusaciones de mochasueldos.,2026-03-11 02:00:44.180
+9,9,0,B,,N0-B,"Sin contenido legal relevante. Registra críticas mediáticas por desconocimiento de indicadores económicos y costo de vida, sin implicancias en el ámbito penal o administrativo.",2026-03-11 02:00:44.220
+10,10,1,A,2,N1-A2,"Registra un señalamiento en parte policial (2012) por presunto hurto, basado en sospechas de un tercero. No existen antecedentes penales, ni judiciales, ni investigación fiscal derivada de este hecho.",2026-03-11 02:00:44.260
+11,11,5,DO,,N5-DO,"Registra condena penal firme por Difamación Agravada (Delito doloso). Pena de 1 año de libertad suspendida y reparación civil de S/ 20,000.",2026-03-11 02:00:44.297
+12,12,0,A,,N0-A,Sin información legal ni menciones mediáticas sobre procesos judiciales. Perfil caracterizado por trayectoria técnica en administración pública municipal.,2026-03-11 02:00:44.330
+13,13,3,PAT,,N3-PAT,Investigación preparatoria formalizada por presunto Lavado de Activos en el marco del caso Lava Jato (Campaña NO a la revocatoria).,2026-03-11 02:00:44.370
+14,14,0,A,,N0-A,"Candidato sin investigaciones fiscales, procesos judiciales ni sanciones administrativas registradas. Perfil académico enfocado en Derecho y Gestión Pública.",2026-03-11 02:00:44.410
+15,15,1,D,,N1-D,Registra múltiples cuestionamientos mediáticos y pedidos de suspensión ante el JNE por presuntas irregularidades en gestión de fondos (S/ 3.4 millones) y contratación de personal.,2026-03-11 02:00:44.463
+16,16,1,C,,N1-C,Conflictos administrativos resueltos por INDECOPI en relación a su gestión en APDAYC. No registra procesos penales vigentes.,2026-03-11 02:00:44.513
+17,17,3,COR,,N3-COR,Investigación preliminar fiscal por Negociación Incompatible y Colusión Agravada (Caso Renzo Navarro y favorecimiento empresarial en La Victoria).,2026-03-11 02:00:44.557
+18,18,3,COR,,N3-COR,"Investigación por presunta colusión agravada (Caso Interoceánica Sur). El PJ rechazó el archivo del caso en 2024, señalando indicios de complicidad.",2026-03-11 02:00:44.597
+19,19,0,A,,N0-A,Candidato con perfil académico y técnico sólido. Trayectoria en gestión regional y nacional sin registros de sentencias ni investigaciones fiscales de alto impacto.,2026-03-11 02:00:44.637
+20,20,5,ADM,,N5-ADM,"Registró condena en 2002 por peculado (cómplice) en el marco de pagos vinculados al régimen Fujimori-Montesinos. Aunque fue absuelto en 2006, el antecedente histórico marca el nivel máximo de alerta administrativa.",2026-03-11 02:00:44.677
+21,21,1,C,,N1-C,Conflictos administrativos por omisión de información en Hoja de Vida. El JEE de Lima Centro advirtió una posible declaración falsa respecto a una sentencia civil de 2022 por ejecución de garantías.,2026-03-11 02:00:44.720
+22,22,2,A,,N2-A,Infracción al principio de neutralidad electoral declarada por el JEE. En 2018 llamó a votar por un candidato municipal desde instalaciones del Congreso.,2026-03-11 02:00:44.767
+23,23,0,A,,N0,"Sin información relevante. No se registran investigaciones fiscales, procesos judiciales o denuncias formales hasta la fecha (2026).",2026-03-11 02:00:44.807
+24,24,4,M,,N4-M,Prisión preventiva vigente de 24 meses por organización criminal y lavado de activos. Condición actual: Prófugo con orden de captura. Registra incautación de S/ 1.6 millones por extinción de dominio.,2026-03-11 02:00:44.850
+25,25,0,A,,N0,"Sin información relevante. No se registran investigaciones fiscales, procesos judiciales o denuncias formales hasta la fecha disponible (2026).",2026-03-11 02:00:44.890
+26,26,5,ADM,,N5-ADM,"Condena firme en 2005 por peculado (delito contra la administración pública). Aunque rehabilitado y habilitado por el JNE en 2026, el antecedente es crítico por la naturaleza del cargo.",2026-03-11 02:00:44.933
+27,27,0,A,,N0,"Sin información relevante. No se registran investigaciones fiscales, procesos judiciales o denuncias formales hasta la fecha (2026).",2026-03-11 02:00:44.973
+28,28,0,A,,N0,"Sin información relevante. No se registran investigaciones fiscales, procesos judiciales o denuncias formales hasta la fecha (2026).",2026-03-11 02:00:45.010
+29,29,2,B,,N2-B,Investigación preliminar por presunto uso irregular de vehículo oficial durante periodos de licencia en 2022. Caso derivado a la Fiscalía Anticorrupción.,2026-03-11 02:00:45.053
+30,30,4,M,,N4-M,Investigación fiscal relevante / acusación por delitos graves,2026-03-11 02:00:45.100
+31,31,1,A,1,N1-A1,Cuestionamientos mediáticos por presunta falsificación de firmas en la inscripción del partido Primero La Gente (2025). No tiene investigación directa.,2026-03-11 02:00:45.143
+32,32,0,A,,N0,"Sin información relevante. No se registran investigaciones fiscales, procesos judiciales o denuncias formales hasta la fecha (2026).",2026-03-11 02:00:45.187
+33,33,0,A,,N0,Sin información relevante. No se registran investigaciones fiscales o procesos judiciales hasta la fecha (2026).,2026-03-11 02:00:45.220
+34,34,2,B,,N2-B,Investigación preliminar por presunta participación en disturbios y daños a la sede judicial de Trujillo en 2025. Denunciada por la Corte Superior de La Libertad.,2026-03-11 02:00:45.250
+35,35,0,A,,N0,Sin información relevante. No se registran investigaciones fiscales o procesos judiciales hasta la fecha (2026).,2026-03-11 02:00:45.267
+36,36,2,A,,N2-A,Infracción al principio de neutralidad electoral confirmada por el JNE (2025) y controversia tributaria por deuda coactiva de empresa Peruval Corp S.A.,2026-03-11 02:00:45.287

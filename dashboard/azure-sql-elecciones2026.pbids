@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "tds",
+        "address": {
+          "server": "sql-candidatos2026-dev-w3-z0lh9d.database.windows.net",
+          "database": "Elecciones2026DW"
+        }
+      },
+      "options": {},
+      "mode": "Import"
+    }
+  ]
+}

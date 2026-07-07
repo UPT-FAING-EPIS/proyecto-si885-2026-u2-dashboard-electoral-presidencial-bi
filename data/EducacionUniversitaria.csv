@@ -1,0 +1,60 @@
+﻿IdEducacion,Universidad,Grado,Concluido,AñoObtencion,IdCandidato
+1,Universidad Nacional del Callao,ECONOMISTA,True,,1
+2,Universidad Nacional del Callao,BACHILLER EN CIENCIAS ECONOMICAS,True,1976.0,1
+3,Universidad de San Martín de Porres,ABOGADO,True,2006.0,2
+4,Universidad de San Martín de Porres,BACHILLER EN DERECHO Y CIENCIA POLITICA,True,2006.0,2
+5,Universidad Nacional de Trujillo,BACHILLER EN INGENIERIA QUIMICA,True,,3
+6,Universidad Nacional de Trujillo,INGENIERO QUIMICO,True,1995.0,3
+7,Escuela Militar de Chorrillos,BACHILLER EN CIENCIAS MILITARES,True,2009.0,4
+8,Escuela Militar de Chorrillos,LICENCIADO EN CIENCIAS MILITARES,True,2009.0,4
+9,Universidad de San Martín de Porres,BACHILLER EN DERECHO,True,2007.0,5
+10,Universidad de San Martín de Porres,ABOGADO,True,2008.0,5
+11,BOSTON UNIVERSITY,LICENCIADA EN ADMINISTRACIÓN DE EMPRESAS,True,2025.0,6
+12,Pontificia Universidad Católica del Perú,BACHILLER EN CIENCIAS SOCIALES CON MENCION EN ECONOMIA,True,,7
+13,Pontificia Universidad Católica del Perú,LICENCIADO EN ECONOMÍA,True,2008.0,7
+14,UNMSM,BACHILLER EN PSICOLOGIA,True,1998.0,8
+15,UNMSM,PSICOLOGO,True,2000.0,8
+16,Universidad de Lima,BACHILLER EN ECONOMIA,True,,9
+17,Universidad de San Martín de Porres,BACHILLER EN DERECHO,True,2022.0,10
+18,UNIVERSIDAD DE LIMA,BACHILLER ADMINISTRACION DE EMPRESAS,True,1977.0,11
+19,Universidad Inca Garcilaso de la Vega,LICENCIADO EN ADMINISTRACION,True,2009.0,12
+20,Universidad Inca Garcilaso de la Vega,BACHILLER EN CIENCIAS ADMINISTRATIVAS,True,,12
+21,PUCP,BACHILLER EN SOCIOLOGIA,True,,13
+22,Universidad Tecnológica de los Andes,BACHILLER EN DERECHO,True,2007.0,14
+23,Universidad Tecnológica de los Andes,ABOGADO,True,2009.0,14
+24,UNIVERSIDAD INCA GARCILASO DE LA VEGA,ADMINISTRACION,False,,15
+25,UNMSM,MÉDICO CIRUJANO,True,1988.0,16
+26,UIGV,BACHILLER EN DERECHO Y CIENCIAS POLITICAS,True,2006.0,16
+27,UIGV,ABOGADO,True,2007.0,16
+28,UPC,BACHILLER EN ADMINISTRACIÓN DE EMPRESAS,True,2021.0,17
+29,Universidad del Pacífico,BACHILLER EN CIENCIAS CON MENCION EN ADMINISTRACION,True,,18
+30,Universidad Ricardo Palma,BACHILLER INGENIERIA ELECTRONICA,True,1988.0,19
+31,Universidad Ricardo Palma,INGENIERO ELECTRONICO,True,1990.0,19
+32,Universidad Nacional de Ingeniería,BACHILLER EN CIENCIAS,True,2010.0,21
+33,Universidad Alas Peruanas S.A.,BACHILLER EN DERECHO,True,2016.0,21
+34,Universidad Alas Peruanas S.A.,ABOGADO,True,2025.0,21
+35,Escuela Naval del Perú,BACHILLER EN CIENCIAS MARÍTIMO NAVALES,True,2025.0,21
+36,Universidad Católica de Santa María,BACHILLER EN DERECHO,True,1999.0,22
+37,Universidad Católica de Santa María,ABOGADO,True,1999.0,22
+38,Escuela de Oficiales de la Fuerza Aérea del Perú,BACHILLER EN CIENCIAS DE LA ADMINISTRACION AEROESPACIAL,True,2010.0,23
+39,Escuela de Oficiales de la Fuerza Aérea del Perú,LICENCIADO EN CIENCIAS DE LA ADMINISTRACION AEROESPACIAL,True,2012.0,23
+40,INSTITUTO SUPERIOR DE CIENCIAS MÉDICAS DE CAMAGUEY,TÍTULO DE ESPECIALISTA DE PRIMER GRADO EN NEUROCIRUGÍA,True,2002.0,24
+41,INSTITUTO SUPERIOR DE CIENCIAS MÉDICAS DE CAMAGUEY,TÍTULO DE DOCTOR EN MEDICINA,True,1997.0,24
+42,Universidad Nacional Mayor de San Marcos,ABOGADO,True,1972.0,25
+43,UNIVERSIDAD NACIONAL DE INGENIERIA,INGENIERIA INDUSTRIAL,True,1978.0,26
+44,Universidad Privada Telesup S.A.C.,CONTADOR PÚBLICO,True,2016.0,27
+45,Universidad Privada Telesup S.A.C.,BACHILLER EN CONTABILIDAD Y FINANZAS,True,2013.0,27
+46,Pontificia Universidad Católica del Perú,BACHILLER EN DERECHO,True,1987.0,28
+47,Pontificia Universidad Católica del Perú,ABOGADO,True,1987.0,28
+48,Universidad de San Martín de Porres,ABOGADO,True,2021.0,29
+49,Universidad de San Martín de Porres,ECONOMISTA,True,2000.0,30
+50,Universidad de San Martín de Porres,BACHILLER EN CIENCIAS ECONÓMICAS,True,2000.0,30
+51,Universidad de San Martín de Porres,ABOGADO,True,1995.0,31
+52,Universidad de San Martín de Porres,BACHILLER EN DERECHO,True,1995.0,31
+53,Universidad de San Martín de Porres,BACHILLER EN DERECHO Y CIENCIA POLÍTICA,True,2004.0,32
+54,Universidad de San Martín de Porres,ABOGADO,True,2009.0,32
+55,Universidad Privada César Vallejo,BACHILLER EN EDUCACIÓN,True,2001.0,34
+56,Escuela Militar de Chorrillos “Coronel Francisco Bolognesi”,BACHILLER EN CIENCIAS MILITARES,True,2012.0,35
+57,Escuela Militar de Chorrillos “Coronel Francisco Bolognesi”,LICENCIADO EN CIENCIAS MILITARES,True,2012.0,35
+58,Universidad de Piura,INGENIERO INDUSTRIAL,True,1995.0,36
+59,Universidad de Piura,BACHILLER EN CIENCIAS DE LA INGENIERÍA,True,,36

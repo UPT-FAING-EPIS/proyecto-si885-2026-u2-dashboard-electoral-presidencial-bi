@@ -1,0 +1,72 @@
+name: Release Artifacts
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag de release, por ejemplo v2.0.0"
+        required: true
+        default: "v2.0.0"
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Resolve release tag
+        id: release
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create tag for manual release
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -f "${{ steps.release.outputs.tag }}"
+          git push -f origin "${{ steps.release.outputs.tag }}"
+
+      - name: Package deliverables
+        run: |
+          mkdir -p release
+          zip -r release/artefactos-unidad-2.zip \
+            README.md \
+            DICCIONARIO_DATOS.md \
+            FD* \
+            dashboard \
+            database \
+            docs \
+            etl \
+            infra \
+            scripts \
+            sql \
+            data
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.release.outputs.tag }}
+          name: Entregables Unidad 2 ${{ steps.release.outputs.tag }}
+          body: |
+            Release de artefactos de la Unidad 2:
+            - Almacen de datos Azure SQL
+            - Automatizacion ETL
+            - Reporte Power BI conectado al almacen
+            - Infraestructura Terraform
+            - Workflows de despliegue y procesamiento periodico
+            - Informes FD01-FD05 y diccionario de datos
+          files: release/artefactos-unidad-2.zip
