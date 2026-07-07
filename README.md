@@ -41,7 +41,6 @@ Esta sección ofrece una panorámica del escenario electoral, segmentando a los 
   <img src="./img/dashboard_p2_2.PNG" width="45%" alt="Ficha Candidato 1">
   <img src="./img/dashboard_p2_3.PNG" width="45%" alt="Ficha Candidato 2">
 </p>
-<p align="center"><em>Ejemplos de fichas individuales: Datos demográficos, historial legal, ingresos y tracking de TikTok.</em></p>
 
 ---
 
